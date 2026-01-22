@@ -1,15 +1,13 @@
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { IoCartOutline, IoHeartOutline, IoSunnyOutline, IoMoonOutline } from "react-icons/io5";
+import { IoCartOutline, IoHeartOutline } from "react-icons/io5";
 import { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 import { WishlistContext } from '../context/WishlistContext';
-import { ThemeContext } from '../context/ThemeContext';
 
 const Navbar = () => {
     const { pathname } = useLocation();
     const { cartItems } = useContext(CartContext);
     const { wishlistItems } = useContext(WishlistContext);
-    const { isDarkMode, toggleTheme } = useContext(ThemeContext);
 
     const isHome = pathname === '/';
 
@@ -36,13 +34,6 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-4">
-                    <button 
-                        onClick={toggleTheme}
-                        className="p-2 rounded-full border bg-white border-gray-200 text-black hover:bg-gray-100 transition"
-                        aria-label="Toggle theme"
-                    >
-                        {isDarkMode ? <IoSunnyOutline size={20} /> : <IoMoonOutline size={20} />}
-                    </button>
                     <Link to="/dashboard/cart" className="relative p-2 rounded-full border bg-white border-gray-200 text-black hover:bg-gray-100 transition">
                         <IoCartOutline size={20} />
                         {cartItems.length > 0 && (
