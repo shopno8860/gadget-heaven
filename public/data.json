@@ -1,0 +1,101 @@
+[
+  {
+    "product_id": "1",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://dummyjson.com/image/400x400/000000/ffffff?text=Dell+XPS+13",
+    "category": "Computers",
+    "price": 999.99,
+    "description": "Ultra-slim, high-performance laptop with 13.4-inch InfinityEdge display.",
+    "Specification": ["Intel i7 11th Gen", "16GB RAM", "512GB SSD", "Touchscreen"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "2",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://dummyjson.com/image/400x400/111111/ffffff?text=MacBook+Air+M2",
+    "category": "Computers",
+    "price": 1000,
+    "description": "Supercharged by M2 chip, 13.6-inch Liquid Retina display.",
+    "Specification": ["Apple M2 Chip", "8GB Unified Memory", "256GB SSD", "MagSafe Charging"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "3",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://dummyjson.com/image/400x400/222222/ffffff?text=Galaxy+S23+Ultra",
+    "category": "Phones",
+    "price": 1199,
+    "description": "Epic nightography, 200MP camera.",
+    "Specification": ["6.8-inch QHD+", "Snapdragon 8 Gen 2", "256GB Storage", "5000mAh Battery"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "4",
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://dummyjson.com/image/400x400/333333/ffffff?text=iPhone+14+Pro",
+    "category": "Phones",
+    "price": 999,
+    "description": "Dynamic Island, A16 Bionic chip.",
+    "Specification": ["6.1-inch Super Retina XDR", "A16 Bionic", "128GB Storage", "Face ID"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "5",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://dummyjson.com/image/400x400/444444/ffffff?text=Apple+Watch+Series+9",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "Smarter, brighter, and mightier.",
+    "Specification": ["Always-On Retina display", "S9 SiP", "Blood Oxygen app", "Water resistant 50m"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "6",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://dummyjson.com/image/400x400/555555/ffffff?text=Galaxy+Watch+6",
+    "category": "Smart Watches",
+    "price": 299,
+    "description": "Sleep coaching and heart rate tracking.",
+    "Specification": ["Super AMOLED", "Exynos W930", "BioActive Sensor", "IP68"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "7",
+    "product_title": "Anker 737 Power Bank",
+    "product_image": "https://dummyjson.com/image/400x400/666666/ffffff?text=Anker+737",
+    "category": "Power Banks",
+    "price": 149.99,
+    "description": "24,000mAh power bank with fast charging.",
+    "Specification": ["24,000mAh", "140W Fast Charging", "Smart Display", "3 Ports"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "8",
+    "product_title": "MagSafe Charger",
+    "product_image": "https://dummyjson.com/image/400x400/777777/ffffff?text=MagSafe+Charger",
+    "category": "Chargers",
+    "price": 39,
+    "description": "Magnetic wireless charging.",
+    "Specification": ["15W Wireless", "USB-C", "Magnetic Alignment", "Compact"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "9",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://dummyjson.com/image/400x400/888888/ffffff?text=Sony+WH-1000XM5",
+    "category": "Accessories",
+    "price": 348,
+    "description": "Industry-leading noise cancellation.",
+    "Specification": ["30h Battery", "Auto NC", "Clear Calls", "Multipoint"],
+    "availability": true,
+    "rating": 4.8
+  }
+]
