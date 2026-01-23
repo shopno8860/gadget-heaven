@@ -1,5 +1,7 @@
 # Gadget Haven
 
+**Live Demo:** [https://gadget-heaven8860.netlify.app/](https://gadget-heaven8860.netlify.app/)
+
 A modern, full-featured e-commerce platform for browsing and purchasing the latest gadgets and electronics. Built with React and modern web technologies for a seamless shopping experience.
 
 ---
